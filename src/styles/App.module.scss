@@ -1,0 +1,153 @@
+@import './Colors.scss';
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Open+Sans&display=swap');
+.content {
+  height: 100vh;
+  .head {
+    height: 35vh;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+  }
+}
+.picture {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  img {
+    width: 150px;
+    border-radius: 100%;
+    border: 2px solid $main-text-light;
+    background-color: $main-text;
+  }
+  .greet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    span {
+      color: $main-text-dim;
+      font-family: 'Open Sans';
+    }
+    span.name {
+      font-family: Hurricane;
+      color: $main-text-light;
+      font-size: 40px;
+    }
+  }
+}
+.infoBox {
+  font-family: 'Open Sans';
+  max-width: 600px;
+  color: $main-text;
+  // border: 1px solid $bg-light;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+.sectionTitle {
+  font-family: 'Open Sans';
+  color: $main-text-dim;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px 0;
+  border-bottom: 1px solid $secondary-bg-light;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0 20px;
+}
+p {
+  margin-bottom: 5px;
+}
+
+ul.techStackList {
+  padding: 0;
+  li {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 4px 0;
+    height: 50px;
+    .logo {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      margin-right: 14px;
+      width: 20px;
+    }
+    .techDetail {
+      height: 50px;
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      span {
+        margin-bottom: 6px;
+      }
+    }
+  }
+}
+
+.project {
+  margin-top: 20px;
+  padding: 20px;
+  border: 2px solid $secondary-bg-light;
+  background-color: #161b22;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial,
+    sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+  .projectTitle {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+    .fa {
+      color: $main-text-dim-dim;
+      margin-right: 10px;
+    }
+    a {
+      color: #58a6ff;
+      text-decoration: none;
+    }
+  }
+  .ProjectDescription {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: $main-text-dim-dim;
+  }
+  .language {
+    display: flex;
+    span {
+      font-size: 14px;
+      margin-left: 5px;
+      color: $main-text-dim-dim;
+    }
+  }
+}
+
+.link {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 50px 0;
+  a {
+    margin: 15px;
+  }
+}

@@ -1,0 +1,1 @@
+Feel free to fork and use this as your portofolio website, just edit `src/lib/info.ts` to get started.

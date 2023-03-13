@@ -1,0 +1,15 @@
+@import './Colors.scss';
+
+.main {
+  background: transparent;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  .game {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+}
