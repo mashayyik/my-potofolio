@@ -177,7 +177,7 @@ export const project: Project[] = [
         description: 'Game Tunes like Keyboard with Javascript Vanilla DOM',
         url: 'https://playwithtunes.mashayyik.dev',
         repo: 'https://github.com/mashayyik/playwithtunes',
-        language: 'Express JS',
+        language: 'Javascript DOM',
         color: '#FFE600',
     },
 ];
