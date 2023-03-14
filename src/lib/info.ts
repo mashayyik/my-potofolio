@@ -171,6 +171,15 @@ export const project: Project[] = [
         language: 'Express JS',
         color: '#FFE600',
     },
+    {
+        font: faBook,
+        title: 'PlayWithTunes',
+        description: 'Game Tunes like Keyboard with Javascript Vanilla DOM',
+        url: 'https://playwithtunes.mashayyik.dev',
+        repo: 'https://github.com/mashayyik/playwithtunes',
+        language: 'Express JS',
+        color: '#FFE600',
+    },
 ];
 
 interface Link {
