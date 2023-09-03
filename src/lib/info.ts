@@ -9,6 +9,13 @@ interface TechStack {
 }
 export const techStack: TechStack[] = [
     {
+        title: 'Java (Main Techstack)',
+        logo: '/images/min-java.png',
+        width: 20,
+        height: 20,
+        line: 98,
+    },
+    {
         title: 'JavaScript',
         logo: '/images/min-js.png',
         width: 20,
@@ -63,6 +70,20 @@ export const FEtechStack: TechStack[] = [
 ];
 
 export const BEtechStack: TechStack[] = [
+    {
+        title: 'Springboot',
+        logo: '/images/min-spring.png',
+        width: 25,
+        height: 25,
+        line: 95,
+    },
+    {
+        title: 'PostgreSQL',
+        logo: '/images/min-postgres.png',
+        width: 25,
+        height: 25,
+        line: 95,
+    },
     {
         title: 'PostgreSQL',
         logo: '/images/min-postgres.png',
