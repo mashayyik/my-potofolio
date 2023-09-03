@@ -85,13 +85,6 @@ export const BEtechStack: TechStack[] = [
         line: 95,
     },
     {
-        title: 'PostgreSQL',
-        logo: '/images/min-postgres.png',
-        width: 25,
-        height: 25,
-        line: 95,
-    },
-    {
         title: 'Sequelize ORM',
         logo: '/images/min-sequelize.png',
         width: 25,
