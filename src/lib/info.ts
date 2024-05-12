@@ -23,7 +23,7 @@ export const techStack: TechStack[] = [
         line: 98,
     },
     {
-        title: 'TypeScript (Learning)',
+        title: 'TypeScript',
         logo: '/images/min-ts.png',
         width: 20,
         height: 20,
@@ -130,7 +130,7 @@ export const otherTechStack: TechStack[] = [
         line: 93,
     },
     {
-        title: 'Googling',
+        title: 'FireBase',
         logo: '/images/min-google.png',
         width: 20,
         height: 20,
